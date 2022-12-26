@@ -9,6 +9,10 @@
         "PYTHONPATH": "${workspaceFolder}"
     },
 
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/notebook"
+    ],
+
     "python.testing.pytestArgs": [
         "project"
     ],
